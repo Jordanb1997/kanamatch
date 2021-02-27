@@ -1,0 +1,120 @@
+/*colours source https://coolors.co/5f5566-33202a-141414-fcfcfc-ff3347 */
+body {
+  background-color: #fcfcfc;
+  margin: 0;
+  padding: 0;
+  min-height: fit-content;
+  min-width: fit-content;
+}
+.button {
+  background-color: #fcfcfc;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 1vh;
+  width: 1vw;
+  text-align: center;
+  display: inline;
+}
+.navbar {
+  background-color: #ff3347;
+  /*border-bottom: 1px solid #141414;*/
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.titlesplash {
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3vh;
+}
+.interaction {
+  border-bottom: 1px solid #141414;
+  height: 20vh;
+  display: flex;
+  min-height: auto;
+  justify-content: center;
+  align-content: center;
+}
+.guesscontainer {
+  border-style: solid;
+  display: flex;
+  width: 20vw;
+  justify-items: center;
+  align-items: center;
+}
+.guess {
+  background-color: #ffb7c5;
+  border: 1px solid #141414;
+  height: 12vh;
+  width: 12vh;
+}
+
+.kanaswitch {
+  margin: 1vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kanabutton {
+  background-color: #ff3347;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 5vh;
+  width: 5vw;
+  justify-content: center;
+}
+
+.kanacontainer {
+  background-color: #fcfcfc;
+  padding: 2vh;
+}
+
+.outerhiraganacontainer,
+.outerkatakanacontainer,
+.outerromcontainer {
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hiracontainer,
+.katacontainer,
+.romcontainer {
+  background-color: inherit;
+  margin: 1vh;
+  border: 1px solid #141414;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+.hira,
+.kata,
+.rom {
+  background-color: #ff3347;
+  border: 1px solid #141414;
+  height: 8vh;
+  width: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#empty {
+  background-color: lightgray;
+}
+.hira:hover,
+.kata:hover,
+.rom:hover {
+  background-color: #ffb7c5;
+}
